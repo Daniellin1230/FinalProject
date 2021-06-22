@@ -14,6 +14,23 @@
 
 
 ## code詳解
-一開始必須先去kkbox open api的網站創建帳號，取得id及密碼，  
+- 一開始必須先去kkbox open api的網站創建帳號，取得id及密碼，  
 接著進到程式裡，利用kkbox token的API，設定網址、標題、參數，把剛剛得到的id及密碼放到參數裡，  
 接著就可以利用API去得到許可憑證，後面都需要用到許可憑證去使用其他API。
+![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/2.PNG)        
+
+- 接下來要取得排行榜資料，先取得許可憑證，接著要輸入kkbox 排行榜的API，  
+設定好標頭跟參數，就可以向API取得排行榜的資料，接著輸出排行榜的id及名稱。
+![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/5.PNG)    
+
+- 接著要利用id搜尋排行榜上的歌，也是先取得憑證、排行榜歌曲API，設定標頭、參數，  
+就可以向API請求資料，輸出歌名網址，透過網址可以上KKBOX的網站去試聽。
+![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/6.PNG)
+
+- 最後用歌手搜尋歌單，取得API，設定參數，再把搜尋歌手名稱設定到API裡面，  
+就可以順利取得API資料，輸出歌單。
+![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/7.PNG)
+
+
+## 參考網站
+- https://docs-zhtw.kkbox.codes/#overview
