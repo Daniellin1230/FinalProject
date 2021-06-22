@@ -31,6 +31,9 @@
 就可以順利取得API資料，輸出歌單。
 ![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/7.PNG)
 
+## 結果
+利用搜尋到的網址，就可以到KKBOX的網站進行試聽  
+![image](https://github.com/Daniellin1230/FinalProject/blob/main/picture/8.PNG)
 
 ## 參考網站
 - https://docs-zhtw.kkbox.codes/#overview
